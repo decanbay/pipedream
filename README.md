@@ -1,6 +1,6 @@
 Does your ```apt list --upgradable```
 
-returns many packages?  You can pipe it to apt install directly with the following command
+return many packages?  You can pipe it to apt install directly with the following piping
 
 ```sh
 apt list --upgradable | grep -oP '^[^/]+(?=/)' | xargs sudo apt install -y
