@@ -1,4 +1,3 @@
-# usefulbash
 Does your ```apt list --upgradable```
 
 returns many packages?  You can pipe it to apt install directly with the following command
